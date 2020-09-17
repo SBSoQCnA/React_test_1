@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PlaceImage from './components/PlaceImage';
+import PlaceStats from './components/PlaceStats';
 import Header from './components/layout/Header'
 
 class App extends React.Component {
@@ -60,7 +60,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <PlaceImage
+        <PlaceStats
           statarray={this.state.stats_array}
           onChange1={this.onChange1}
           onChange2={this.onChange2}
